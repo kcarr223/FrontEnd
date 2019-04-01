@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="scoreKeeperFancy.css">
+
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<title>Score Keeper</title>
+</head>
+<body>
+
+<div class="container">
+	
+	<h1 class="text-center display-1"><i class="fas fa-trophy"></i> Score Keeper <i class="fas fa-trophy"></i></h1>
+
+	<div class="row mt-4 justify-content-center bg-light shadow">
+		<h3>You are playing a game to: <span class="font-weight-bold">5</span></h3>
+	</div>
+
+	<div class="row mt-5 justify-content-around align-items-center">
+		<div id="p1Box" class="col-md-5 m-2 px-2 py-5 bg-warning text-center display-4 border border-secondary shadow">
+			Player 1: <span id="p1Display" class="font-weight-bold">0</span>
+		</div>
+		<div id="p2Box" class="col-md-5 m-2 px-2 py-5 bg-warning text-center display-4 border border-secondary shadow">
+			Player 2: <span id="p2Display" class="font-weight-bold">0</span>
+		</div>
+	</div>
+
+	<div class="row text-center mt-2 justify-content-around align-items-center">
+		<button id="p1" class="lead btn btn-lg btn-primary">Player One +</button>
+		<button id="p2" class="lead btn btn-lg btn-primary">Player Two +</button>
+	</div>	
+
+	<div class="row mt-5 justify-content-center align-items-center">
+		<label for="playingTo">Playing To: </label>
+		<input id="playingTo" class="col-2 col-lg-1 mx-2" type="number" placeholder="5">
+		<button class="btn btn-lg btn-danger mx-5" id="reset">Reset</button>
+	</div>
+
+
+
+</div>
+
+<script type="text/javascript" src="scoreKeeperFancy.js"></script>
+</body>
+</html>

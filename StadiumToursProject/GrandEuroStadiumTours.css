@@ -1,0 +1,101 @@
+body {
+	background: #F5DABC;
+	font-family: "Righteous", sans-serif;
+}
+
+.list-group-item {
+	background: #F5DABC;
+	/*border-color: #F7880C;*/
+	border: none;
+}
+
+.blurb h2 {
+	font-family: "Monoton";
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+.blurb p {
+	color: #F7880C;
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
+}
+
+.content {
+	margin-top: 100px;
+/*	margin-bottom: 100px;*/
+}
+
+.fas {
+	font-size: 6rem;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #F7880C;
+}
+
+li img {
+	width: 7%;
+	height: auto;
+	margin-left: 10px;
+}
+
+#mainNavbar {
+	font-family: "Permanent Marker";
+	font-size: 1.5rem;
+	font-weight: 100;
+	color: white;
+}
+
+#mainNavbar .nav-link {
+	color: white;
+}
+
+#mainNavbar .nav-link:hover {
+	color: #F7880C;
+}
+
+#mainNavbar .navbar-brand {
+	color: #F7880C;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+#headingGroup span {
+	color: #F7880C;
+}
+
+#headingGroup h1 {
+	font-family: "Monoton";
+	color: black;
+	font-size: 4rem;
+}
+
+#headingGroup h2 {
+	font-family: "Permanent Marker";
+	font-size: 2rem;
+}
+
+.navbar.scrolled {
+	background: #F5C162;
+	transition: background 500ms;
+}
+
+@media (max-width: 1250px) and (min-width: 1100px) {
+	#headingGroup h1 {
+		font-weight: 100;
+		font-size: 3.5rem;
+	}
+}
+
+@media (max-width: 1100px) {
+	#headingGroup h1 {
+		font-weight: 100;
+		font-size: 3rem;
+	}
+}
